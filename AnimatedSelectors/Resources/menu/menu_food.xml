@@ -4,10 +4,10 @@
     <item
             android:id="@+id/navigation_pizza"
             android:icon="@drawable/toggle_avd_pizza"
-            android:title="Pizza"/>
+            android:title="@string/option_pizza"/>
  
     <item
             android:id="@+id/navigation_drinks"
             android:icon="@drawable/toggle_avd_drinks"
-            android:title="Drinks"/> 
+            android:title="@string/option_drinks"/> 
 </menu>
