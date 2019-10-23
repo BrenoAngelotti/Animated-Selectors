@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+    <item
+            android:id="@+id/navigation_pizza"
+            android:icon="@drawable/toggle_avd_pizza"
+            android:title="Pizza"/>
+ 
+    <item
+            android:id="@+id/navigation_drinks"
+            android:icon="@drawable/toggle_avd_drinks"
+            android:title="Drinks"/> 
+</menu>
