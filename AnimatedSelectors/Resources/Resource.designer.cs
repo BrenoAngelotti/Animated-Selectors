@@ -3229,19 +3229,31 @@ namespace AnimatedSelectors
 			public const int notify_panel_notification_icon_bg = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int toggle_avd_drinks = 2131165325;
+			public const int radio_button = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int toggle_avd_pizza = 2131165326;
+			public const int radio_selected_shape = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int toggle_avd_test = 2131165327;
+			public const int radio_unselected_shape = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int tooltip_frame_dark = 2131165328;
+			public const int toggle_avd_drinks = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int tooltip_frame_light = 2131165329;
+			public const int toggle_avd_pizza = 2131165329;
+			
+			// aapt resource value: 0x7F070092
+			public const int toggle_avd_test = 2131165330;
+			
+			// aapt resource value: 0x7F070093
+			public const int toggle_pizza = 2131165331;
+			
+			// aapt resource value: 0x7F070094
+			public const int tooltip_frame_dark = 2131165332;
+			
+			// aapt resource value: 0x7F070095
+			public const int tooltip_frame_light = 2131165333;
 			
 			static Drawable()
 			{
@@ -3746,94 +3758,97 @@ namespace AnimatedSelectors
 			public const int tag_unhandled_key_listeners = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int text = 2131230883;
+			public const int tapped = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int text2 = 2131230884;
-			
-			// aapt resource value: 0x7F0800A9
-			public const int textinput_counter = 2131230889;
-			
-			// aapt resource value: 0x7F0800AA
-			public const int textinput_error = 2131230890;
-			
-			// aapt resource value: 0x7F0800AB
-			public const int textinput_helper_text = 2131230891;
+			public const int text = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int textSpacerNoButtons = 2131230885;
+			public const int text2 = 2131230885;
 			
-			// aapt resource value: 0x7F0800A6
-			public const int textSpacerNoTitle = 2131230886;
+			// aapt resource value: 0x7F0800AA
+			public const int textinput_counter = 2131230890;
 			
-			// aapt resource value: 0x7F0800A7
-			public const int textStart = 2131230887;
-			
-			// aapt resource value: 0x7F0800A8
-			public const int text_input_password_toggle = 2131230888;
+			// aapt resource value: 0x7F0800AB
+			public const int textinput_error = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int time = 2131230892;
+			public const int textinput_helper_text = 2131230892;
+			
+			// aapt resource value: 0x7F0800A6
+			public const int textSpacerNoButtons = 2131230886;
+			
+			// aapt resource value: 0x7F0800A7
+			public const int textSpacerNoTitle = 2131230887;
+			
+			// aapt resource value: 0x7F0800A8
+			public const int textStart = 2131230888;
+			
+			// aapt resource value: 0x7F0800A9
+			public const int text_input_password_toggle = 2131230889;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int title = 2131230893;
+			public const int time = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int titleDividerNoCustom = 2131230894;
+			public const int title = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int title_template = 2131230895;
+			public const int titleDividerNoCustom = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int top = 2131230896;
+			public const int title_template = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int topPanel = 2131230897;
+			public const int top = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int touch_outside = 2131230898;
+			public const int topPanel = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int transition_current_scene = 2131230899;
+			public const int touch_outside = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int transition_layout_save = 2131230900;
+			public const int transition_current_scene = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int transition_position = 2131230901;
+			public const int transition_layout_save = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int transition_scene_layoutid_cache = 2131230902;
+			public const int transition_position = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int transition_transform = 2131230903;
+			public const int transition_scene_layoutid_cache = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int uniform = 2131230904;
+			public const int transition_transform = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int unlabeled = 2131230905;
+			public const int uniform = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int unselected = 2131230906;
+			public const int unlabeled = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int up = 2131230907;
+			public const int unselected = 2131230907;
 			
 			// aapt resource value: 0x7F0800BC
-			public const int useLogo = 2131230908;
+			public const int up = 2131230908;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int view_offset_helper = 2131230909;
+			public const int useLogo = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int visible = 2131230910;
+			public const int view_offset_helper = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int withText = 2131230911;
+			public const int visible = 2131230911;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int wrap_content = 2131230912;
+			public const int withText = 2131230912;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int wrap_content = 2131230913;
 			
 			static Id()
 			{
@@ -4301,31 +4316,37 @@ namespace AnimatedSelectors
 			public const int mtrl_chip_close_icon_content_description = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int option_drinks = 2131623985;
+			public const int option_animated = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int option_pizza = 2131623986;
+			public const int option_drinks = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int password_toggle_content_description = 2131623987;
+			public const int option_pizza = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int path_password_eye = 2131623988;
+			public const int option_simple = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int path_password_eye_mask_strike_through = 2131623989;
+			public const int password_toggle_content_description = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int path_password_eye_mask_visible = 2131623990;
+			public const int path_password_eye = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int path_password_strike_through = 2131623991;
+			public const int path_password_eye_mask_strike_through = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int search_menu_title = 2131623992;
+			public const int path_password_eye_mask_visible = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int status_bar_notification_info_overflow = 2131623993;
+			public const int path_password_strike_through = 2131623993;
+			
+			// aapt resource value: 0x7F0E003A
+			public const int search_menu_title = 2131623994;
+			
+			// aapt resource value: 0x7F0E003B
+			public const int status_bar_notification_info_overflow = 2131623995;
 			
 			static String()
 			{
@@ -4933,6 +4954,9 @@ namespace AnimatedSelectors
 			
 			// aapt resource value: 0x7F0F00C5
 			public const int CardView_Light = 2131689669;
+			
+			// aapt resource value: 0x7F0F01F0
+			public const int customRadioButton = 2131689968;
 			
 			// aapt resource value: 0x7F0F00C6
 			public const int Platform_AppCompat = 2131689670;

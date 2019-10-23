@@ -6,6 +6,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <RadioButton
+                style="@style/customRadioButton"
+                android:drawableTop="@drawable/toggle_pizza"
+                android:text="@string/option_simple"/>
+            <RadioButton
+                style="@style/customRadioButton"
+                android:drawableTop="@drawable/toggle_avd_pizza"
+                android:text="@string/option_animated"/>
+        </RadioGroup>
+    </LinearLayout>
+
     <android.support.design.widget.BottomNavigationView
         style="@style/Widget.Design.BottomNavigationView"
         android:layout_width="match_parent"
