@@ -2,12 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
  
     <item
-            android:id="@+id/navigation_pizza"
-            android:icon="@drawable/toggle_avd_pizza"
-            android:title="@string/option_pizza"/>
+        android:id="@+id/navigation_pizza"
+        android:icon="@drawable/toggle_avd_pizza"
+        android:title="@string/option_pizza"/>
+
+    <item
+        android:id="@+id/navigation_pasta"
+        android:icon="@drawable/toggle_avd_pasta"
+        android:title="@string/option_pasta"/>
  
     <item
-            android:id="@+id/navigation_drinks"
-            android:icon="@drawable/toggle_avd_drinks"
-            android:title="@string/option_drinks"/> 
+        android:id="@+id/navigation_drinks"
+        android:icon="@drawable/toggle_avd_drinks"
+        android:title="@string/option_drinks"/> 
 </menu>

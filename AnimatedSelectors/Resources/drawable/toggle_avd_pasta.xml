@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector 
+  xmlns:android="http://schemas.android.com/apk/res/android">
+ 
+  <item
+    android:id="@+id/selected"
+    android:drawable="@drawable/ic_pasta_out"
+    android:state_checked="true" />
+ 
+  <item
+    android:id="@+id/unselected"
+    android:drawable="@drawable/ic_pasta_in" />
+ 
+  <transition
+    android:drawable="@drawable/avd_pasta_out"
+    android:fromId="@id/unselected"
+    android:toId="@id/selected" />
+ 
+  <transition
+    android:drawable="@drawable/avd_pasta_in"
+    android:fromId="@+id/selected"
+    android:toId="@+id/unselected" />
+ 
+</animated-selector>

@@ -4,8 +4,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:background="#f0f0f0">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:gravity="center">
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:gravity="center"
             android:orientation="horizontal">
             <RadioButton
@@ -26,13 +26,29 @@
                 android:drawableTop="@drawable/toggle_avd_pizza"
                 android:text="@string/option_animated"/>
         </RadioGroup>
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <RadioButton
+                style="@style/customRadioButton"
+                android:drawableTop="@drawable/toggle_pasta"
+                android:text="@string/option_simple"/>
+            <RadioButton
+                style="@style/customRadioButton"
+                android:drawableTop="@drawable/toggle_avd_pasta"
+                android:text="@string/option_animated"/>
+        </RadioGroup>
     </LinearLayout>
+
 
     <android.support.design.widget.BottomNavigationView
         style="@style/Widget.Design.BottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:elevation="2dp"
+        app:elevation="16dp"
         android:layout_gravity="bottom"
+        android:background="@android:color/white"
         app:menu="@menu/menu_food"/>
 </android.support.design.widget.CoordinatorLayout>

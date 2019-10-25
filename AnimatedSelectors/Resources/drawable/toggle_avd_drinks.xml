@@ -8,11 +8,6 @@
         android:state_checked="true"/>
 
     <item
-        android:id="@+id/tapped"
-        android:drawable="@drawable/ic_drinks"
-        android:state_pressed="true"/>
-    
-    <item
         android:id="@+id/normal"
         android:drawable="@drawable/ic_drinks" />
  
@@ -20,9 +15,4 @@
         android:drawable="@drawable/avd_drinks"
         android:fromId="@id/normal"
         android:toId="@id/selected" />
-
-    <transition
-        android:drawable="@drawable/avd_drinks"
-        android:fromId="@id/selected"
-        android:toId="@id/tapped" />
 </animated-selector>
