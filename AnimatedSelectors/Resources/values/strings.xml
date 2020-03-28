@@ -5,6 +5,6 @@
     <string name="option_pizza">Pizza</string>
     <string name="option_pasta">Pasta</string>
     <string name="option_drinks">Drinks</string>
-    <string name="option_simple">Simple</string>
+    <string name="option_basic">Basic</string>
     <string name="option_animated">Animated</string>
 </resources>

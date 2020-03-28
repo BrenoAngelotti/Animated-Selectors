@@ -20,7 +20,7 @@
             <RadioButton
                 style="@style/customRadioButton"
                 android:drawableTop="@drawable/toggle_pizza"
-                android:text="@string/option_simple"/>
+                android:text="@string/option_basic"/>
             <RadioButton
                 style="@style/customRadioButton"
                 android:drawableTop="@drawable/toggle_avd_pizza"
@@ -34,7 +34,7 @@
             <RadioButton
                 style="@style/customRadioButton"
                 android:drawableTop="@drawable/toggle_pasta"
-                android:text="@string/option_simple"/>
+                android:text="@string/option_basic"/>
             <RadioButton
                 style="@style/customRadioButton"
                 android:drawableTop="@drawable/toggle_avd_pasta"

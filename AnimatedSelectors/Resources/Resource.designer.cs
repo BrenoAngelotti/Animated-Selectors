@@ -4337,16 +4337,16 @@ namespace AnimatedSelectors
 			public const int option_animated = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int option_drinks = 2131623986;
+			public const int option_basic = 2131623986;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int option_pasta = 2131623987;
+			public const int option_drinks = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int option_pizza = 2131623988;
+			public const int option_pasta = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int option_simple = 2131623989;
+			public const int option_pizza = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
 			public const int password_toggle_content_description = 2131623990;
