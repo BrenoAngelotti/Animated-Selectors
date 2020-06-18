@@ -20,12 +20,17 @@
             <RadioButton
                 style="@style/customRadioButton"
                 android:drawableTop="@drawable/toggle_pizza"
-                android:text="@string/option_basic"/>
+                android:text="@string/option_pizza"/>
             <RadioButton
                 style="@style/customRadioButton"
-                android:drawableTop="@drawable/toggle_avd_pizza"
-                android:text="@string/option_animated"/>
+                android:drawableTop="@drawable/toggle_pasta"
+                android:text="@string/option_pasta"/>
         </RadioGroup>
+            
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
         <RadioGroup
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -33,12 +38,12 @@
             android:orientation="horizontal">
             <RadioButton
                 style="@style/customRadioButton"
-                android:drawableTop="@drawable/toggle_pasta"
-                android:text="@string/option_basic"/>
+                android:drawableTop="@drawable/toggle_avd_pizza"
+                android:text="@string/option_pizza"/>
             <RadioButton
                 style="@style/customRadioButton"
                 android:drawableTop="@drawable/toggle_avd_pasta"
-                android:text="@string/option_animated"/>
+                android:text="@string/option_pasta"/>
         </RadioGroup>
     </LinearLayout>
 
